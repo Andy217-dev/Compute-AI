@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import USDT_DSC_LP_ABI from '@/conf/abi/USDT-DSC-LP-ABI.json';
+import USDT_DSC_LP_ABI from '@/conf/abi/USDT-COMT-LP-ABI.json';
 import V2Wrapper_ABI from '@/conf/abi/V2Wrapper-ABI.json';
 import './index.scss'
 import PrDataContext from '@/ui/pages/Stake/prDataContext';
@@ -130,7 +130,7 @@ export function StakePage() {
             <div className='w-100 h-r-830 HomeTop'>
                 <div className='pr-title'>
                     <img src={require('@/assets/mobile/Products/img.png')} alt=""/>
-                    <div className='pr-title-h1'>DSC-USDT LP</div>
+                    <div className='pr-title-h1'>COMT-USDT LP</div>
                     <div className='pr-token-info pr-one'>
                         <div>APR</div>
                         <div className='pr-title-txt'>{amountFixedV2(pr_APR, 2)}%</div>
@@ -157,16 +157,9 @@ export function StakePage() {
                            href={'https://app.uniswap.org/#/add/v2/0xdac17f958d2ee523a2206206994597c13d831ec7/0xComingSoon?chain=bsc'}
                            target="_blank">
                             <div className='pr-button'>
-                                Add DSC-USDT LP
+                                Add COMT-USDT LP
                             </div>
-                        </a>
-                        <div className='pr-button-link'>
-                            <span>View Info</span>
-                            <a href={'https://pancakeswap.finance/info/pairs/0x06ba915b8d97aa4e80b6579e58620619a988c6d9?chain=bsc'}
-                               target="_blank">
-                                <img src={require('@/assets/mobile/Products/img_2.png')} alt=""/>
-                            </a>
-                        </div>
+                        </a> 
                         <div className='pr-button-link'>
                             <span>View Contract</span>
                             <a href={'https://bscscan.com/address/0xComingSoon'}
@@ -177,7 +170,7 @@ export function StakePage() {
                     </div>
                     <div className='pr-data-list'>
                         <PrDataContext status={businessStatus}
-                                       token={'DSC-USDT LP'}
+                                       token={'COMT-USDT LP'}
                                        tokenContractABI={USDT_DSC_LP_ABI}
                                        tokenContractAddress={'0x06ba915b8d97aa4e80b6579e58620619a988c6d9'}
                                        V2WrapperABI={V2Wrapper_ABI}
@@ -200,7 +193,7 @@ export function StakePage() {
             <div className='pr-title'>
                 <div>
                     <img src={require('@/assets/mobile/Products/img.png')} alt=""/>
-                    <div className='pr-title-h1'>DSC-USDT LP</div>
+                    <div className='pr-title-h1'>COMT-USDT LP</div>
                 </div>
                 <div>
                     <div className='pr-token-info pr-one pr-apr'>
@@ -226,7 +219,7 @@ export function StakePage() {
             <div className='pr-content'>
                 <div className='pr-data-list'>
                     <PrDataContext status={businessStatus}
-                                   token={'DSC-USDT LP'}
+                                   token={'COMT-USDT LP'}
                                    tokenContractABI={USDT_DSC_LP_ABI}
                                    tokenContractAddress={'0x06ba915b8d97aa4e80b6579e58620619a988c6d9'}
                                    V2WrapperABI={V2Wrapper_ABI}
@@ -242,17 +235,10 @@ export function StakePage() {
                        href={'https://app.uniswap.org/#/add/v2/0xdac17f958d2ee523a2206206994597c13d831ec7/0xComingSoon?chain=bsc'}
                        target="_blank">
                         <div className='pr-button'>
-                            Add DSC-USDT LP
+                            Add COMT-USDT LP
                         </div>
                     </a>
-                    <div className={'pr-add-button-link-div'}>
-                        <div className='pr-button-link'>
-                            <span>View Info</span>
-                            <a href={'https://pancakeswap.finance/info/pairs/0x06ba915b8d97aa4e80b6579e58620619a988c6d9?chain=bsc'}
-                               target="_blank">
-                                <img src={require('@/assets/mobile/Products/img_2.png')} alt=""/>
-                            </a>
-                        </div>
+                    <div className={'pr-add-button-link-div'}>    
                         <div className='pr-button-link'>
                             <span>View Contract</span>
                             <a href={'https://bscscan.com/address/0xComingSoon'}

@@ -827,7 +827,7 @@ function PrDataContext({
                         <div>
                             <a href={'https://app.uniswap.org/#/add/v2/0xdac17f958d2ee523a2206206994597c13d831ec7/0xComingSoon'}
                                target="_blank">
-                                Click Join USDT-DSC-LP
+                                Click Join USDT-COMT-LP
                             </a>
                         </div>
                     </div>
@@ -1033,7 +1033,7 @@ function PrDataContext({
                                 placeholder="0.000000"
                                 onInput={handleStakeChange}/>
                         </span>
-                        <span className='pr-big-txt'>DSC-USDT LP</span>
+                        <span className='pr-big-txt'>COMT-USDT LP</span>
                     </div>
                     <div className='pr-button-content-text'>
                         <span>~{ensureSixDecimals(lp2UsdtAndDsc(stakeLP))} USD</span>
