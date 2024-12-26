@@ -1,0 +1,39 @@
+/* Modal.css */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 30px;
+  background-color: #000;
+  border-radius: 10px;
+  border:1px solid #959595;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.close-button{
+  background: #000;
+  color: #185CFF;
+  border: 0;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+.modal-title{
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 22px;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 20px;
+}

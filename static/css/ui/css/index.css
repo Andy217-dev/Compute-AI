@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  scrollbar-color: transparent transparent;
+  scrollbar-track-color: transparent;
+  -ms-scrollbar-track-color: transparent;
+}
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.bule{
+  color: #66C966;
+}
+
+
+.flex-width{
+  width: 100%;
+  display: flex;
+}
+
+
+.flex-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-align-center{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.indexRoot{
+  width: 100% !important;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+@media   (max-width: 1440) {
+  html {
+    transform: scale(0.8);
+  }
+}
+
+
+@media   (max-width: 1280) {
+  html {
+    transform: scale(0.6);
+  }
+}
+
+
+@media   (max-width: 1180) {
+  html {
+    transform: scale(0.4);
+  }
+}

@@ -1,0 +1,162 @@
+#StartContributingPage[mode='web'] {
+  background-color: rgba(18, 18, 18, 1);
+  color: rgba(255, 255, 255, 1);
+
+  .startBg {
+    height: 830px;
+    width: 1500px;
+    background-image: url('../../../assets/web/start/bg.png');
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .startBgBut {
+      width: 406px;
+      height: 74px;
+      border: 1.41px solid rgba(193, 193, 193, 1);
+      background-color: rgba(24, 92, 255, 1);
+      text-align: center;
+      line-height: 74px;
+      font-size: 21px;
+      cursor: pointer;
+      margin-top: 50px;
+    }
+  }
+
+  .proBg{
+    background-image: url('../../../assets/web/start/proBg.png');
+    background-size: 100% 100%;
+  }
+
+  .bgList{
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .bgItem1{
+    position: absolute;
+    left: 0;
+    z-index: 55;
+    width: 400px;
+    height: 400px;
+    transition: all 0.6s;
+  }
+  .bgItem1:hover{
+    width: 520px;
+    height: 520px;
+    z-index: 99;
+    transform: scale(1);
+
+  }
+  .bgItem2{
+    position: absolute;
+    left: 250px;
+    z-index: 44;
+    width: 400px;
+    height: 400px;
+    transition: all 0.6s;
+
+  }
+  .bgItem2:hover{
+    width: 520px;
+    height: 520px;
+    z-index: 99;
+    transform: scale(1);
+
+  }
+  .bgItem3{
+    position: absolute;
+    left: 550px;
+    z-index: 33;
+    width: 400px;
+    height: 400px;
+    transition: all 0.6s;
+
+  }
+  .bgItem3:hover{
+    width: 520px;
+    height: 520px;
+    z-index: 99;
+    transform: scale(1);
+
+  }
+  .bgItem4{
+    position: absolute;
+    left: 800px;
+    z-index: 22;
+    width: 400px;
+    height: 400px;
+    transition: all 0.6s;
+
+  }
+  .bgItem4:hover{
+    width: 520px;
+    height: 520px;
+    z-index: 99;
+    transform: scale(1);
+
+  }
+  .bgItem5{
+    position: absolute;
+    left: 1000px;
+    z-index: 11;
+    width: 400px;
+    height: 400px;
+    transition: all 0.6s;
+
+  }
+  .bgItem5:hover{
+    width: 520px;
+    height: 520px;
+    z-index: 99;
+    transform: scale(1);
+
+  }
+
+
+
+
+
+
+
+
+
+
+  .uti{
+    position: relative;
+  }
+  .utiImg{
+    position: absolute;
+    top: -300px;
+    left: 400px;
+  }
+}
+
+
+
+#StartContributingPage[mode='mobile'] {
+  background-color: rgba(18, 18, 18, 1);
+  color: rgba(255, 255, 255, 1);
+
+  .startBgBut{
+    border: 0.74px solid #C1C1C1;
+    background: #185CFF;
+    cursor: pointer;
+  }
+
+
+
+  .root {
+    :global {
+      .adm-swiper-slide {
+        transform: scale(0.6);
+        transition: all 0.3s;
+      }
+  
+      .adm-swiper-slide-active {
+        transform: scale(1);
+      }
+    }
+  }
+}

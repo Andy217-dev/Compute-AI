@@ -1,0 +1,31 @@
+#AboutPage[mode='web'] {
+  background-color: rgba(18, 18, 18, 1);
+  color: rgba(255, 255, 255, 1);
+
+
+    .DCS{
+      padding-left: 230px;
+      padding-top: 50px;
+      width: 100%;
+      .DCSbox{
+        padding-top: 150px;
+        height: 100%;
+        height: 1000px;
+        width: 1624px;
+        background-image: url("../../../assets/web/about/aboutBg.png");
+        background-size: 100% 100%;
+      }
+    }
+}
+
+#AboutPage[mode='mobile'] {
+  background-color: rgba(18, 18, 18, 1);
+  color: rgba(255, 255, 255, 1);
+  .DCS{
+    height: 491px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../../../assets/mobile/about/3.png");
+    background-size: 130% 100%;
+  }
+}
