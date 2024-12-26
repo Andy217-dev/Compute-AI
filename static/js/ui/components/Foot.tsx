@@ -17,7 +17,7 @@ export function Foot() {
         <div className='flexcc'>
           <img  onClick={() => handleClick('https://twitter.com/')} className="w-r-63 h-r-63 ml-20 cur" src={require('../../assets/web/Foot/1.png')} alt=""  />
           <img onClick={() => handleClick('https://t.me/')} className="w-r-63 h-r-63 ml-20 cur" src={require('../../assets/web/Foot/2.png')} alt=""  />          
-          <img onClick={() => handleClick('https://dsc-4.gitbook.io/dsc/')} className="w-r-63 h-r-63 ml-20 cur" src={require('../../assets/web/Foot/4.png')} alt=""  />          
+          <img onClick={() => handleClick('https://mighty-2.gitbook.io/computeai')} className="w-r-63 h-r-63 ml-20 cur" src={require('../../assets/web/Foot/4.png')} alt=""  />          
         </div>
     </div>
   )
@@ -30,7 +30,7 @@ export function Foot() {
         <div className='flexcc'>
           <img onClick={() => handleClick('https://twitter.com/')} className="w-r-30 h-r-30 ml-5" src={require('../../assets/web/Foot/1.png')} alt=""  />
           <img onClick={() => handleClick('https://t.me/')} className="w-r-30 h-r-30 ml-5" src={require('../../assets/web/Foot/2.png')} alt=""  />          
-          <img onClick={() => handleClick('https://dsc-4.gitbook.io/dsc/')}  className="w-r-30 h-r-30 ml-5" src={require('../../assets/web/Foot/4.png')} alt=""  />          
+          <img onClick={() => handleClick('https://mighty-2.gitbook.io/computeai')}  className="w-r-30 h-r-30 ml-5" src={require('../../assets/web/Foot/4.png')} alt=""  />          
         </div>
     </div>
   )
