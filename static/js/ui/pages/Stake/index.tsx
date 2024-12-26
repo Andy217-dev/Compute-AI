@@ -148,7 +148,7 @@ export function StakePage() {
                     </div>
                     <div className='pr-token-info'>
                         <div>Reward Per Day</div>
-                        <div>{amountFixedV2(rewardPerDay, 2)} DSC</div>
+                        <div>{amountFixedV2(rewardPerDay, 2)} COMT</div>
                     </div>
                 </div>
                 <div className='pr-content'>
